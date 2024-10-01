@@ -1,0 +1,128 @@
+{
+  "examiners": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "nationalProviderIdentifier": "123456789"
+    },
+    {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "nationalProviderIdentifier": "987654321"
+    },
+    {
+      "id": 3,
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "nationalProviderIdentifier": "456789123"
+    },
+    {
+      "id": 4,
+      "firstName": "Bob",
+      "lastName": "Brown",
+      "nationalProviderIdentifier": "321654987"
+    },
+    {
+      "id": 5,
+      "firstName": "Emily",
+      "lastName": "White",
+      "nationalProviderIdentifier": "654123789"
+    }
+  ],
+  "patients": [
+    {
+      "id": 1,
+      "firstName": "Michael",
+      "lastName": "Miller",
+      "photoUrl": "hhttps://images.pexels.com/photos/846741/pexels-photo-846741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "birthDate": "1985-07-14"
+    },
+    {
+      "id": 2,
+      "firstName": "Sarah",
+      "lastName": "Lee",
+      "photoUrl": "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "birthDate": "1990-11-22"
+    },
+    {
+      "id": 3,
+      "firstName": "David",
+      "lastName": "Wilson",
+      "photoUrl": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "birthDate": "1978-03-05"
+    },
+    {
+      "id": 4,
+      "firstName": "Jessica",
+      "lastName": "Taylor",
+      "photoUrl": "https://images.pexels.com/photos/718978/pexels-photo-718978.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "birthDate": "1982-01-12"
+    },
+    {
+      "id": 5,
+      "firstName": "James",
+      "lastName": "Anderson",
+      "photoUrl": "https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "birthDate": "1995-09-30"
+    }
+  ],
+  "mental-state-exams": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "examinerId": 1,
+      "examDate": "2023-09-15",
+      "orientationScore": 8,
+      "registrationScore": 3,
+      "attentionAndCalculationScore": 4,
+      "recallScore": 3,
+      "languageScore": 9
+    },
+    {
+      "id": 2,
+      "patientId": 2,
+      "examinerId": 2,
+      "examDate": "2023-09-20",
+      "orientationScore": 7,
+      "registrationScore": 2,
+      "attentionAndCalculationScore": 3,
+      "recallScore": 2,
+      "languageScore": 8
+    },
+    {
+      "id": 3,
+      "patientId": 3,
+      "examinerId": 3,
+      "examDate": "2023-08-30",
+      "orientationScore": 9,
+      "registrationScore": 3,
+      "attentionAndCalculationScore": 5,
+      "recallScore": 3,
+      "languageScore": 10
+    },
+    {
+      "id": 4,
+      "patientId": 4,
+      "examinerId": 4,
+      "examDate": "2023-07-10",
+      "orientationScore": 6,
+      "registrationScore": 1,
+      "attentionAndCalculationScore": 4,
+      "recallScore": 2,
+      "languageScore": 7
+    },
+    {
+      "id": 5,
+      "patientId": 5,
+      "examinerId": 5,
+      "examDate": "2023-06-25",
+      "orientationScore": 10,
+      "registrationScore": 3,
+      "attentionAndCalculationScore": 5,
+      "recallScore": 3,
+      "languageScore": 10
+    }
+  ]
+}
