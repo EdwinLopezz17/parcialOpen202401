@@ -1,0 +1,19 @@
+
+<div class="container">
+
+  <h2>Mental State Exams</h2>
+
+  <div class="cards">
+
+      @for (mentalStateExam of mentalStateExams; track mentalStateExam.id){
+        <app-card-examen
+          [mentalStateExam]="mentalStateExam"
+        ></app-card-examen>
+      } @empty {
+        <p>There are no items</p>
+      }
+
+
+  </div>
+
+</div>

@@ -1,0 +1,17 @@
+
+<div class="card">
+
+  <img src="{{patient.photoUrl}}" alt="">
+
+  <div class="info">
+    <p class="name">Name: {{patient.firstName}} {{patient.lastName}}</p>
+    <p class="bordDat">Board Date: {{patient.birthDate}}</p>
+    <p class="examDate">Exam Date: {{mentalStateExam.examDate}}</p>
+    <p class="examinerName">Examiner Name: {{examiner.firstName}} {{examiner.lastName}}</p>
+    <p class="examinerNational">Examiner National: {{examiner.nationalProviderIdentifier}}</p>
+    <p class="totalScore">Total Score: {{totalScore(mentalStateExam)}}</p>
+  </div>
+
+</div>
+
+

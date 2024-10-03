@@ -1,0 +1,15 @@
+
+
+.container{
+
+}
+.content{
+  width: 700px;
+  margin: auto;
+}
+.content img{
+  width: 100%;
+}
+.content h1{
+  font-size: 3rem;
+}
